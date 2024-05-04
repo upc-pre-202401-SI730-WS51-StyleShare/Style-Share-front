@@ -36,13 +36,13 @@ export default {
 
         if (user) {
           alert('¡Inicio de sesión exitoso!');
-          this.loginData = { // Clear login data after successful login (optional)
+          this.loginData = {
             email: '',
             password: '',
           };
           this.errorMessage = '';
-          // Redirect to home page after successful login (replace with your logic)
-          this.$router.push({ path: '/home' }); // Assuming you have a home page route
+          
+          this.$router.push({ path: '/home' }); 
         } else {
           this.errorMessage = 'Correo o contraseña incorrectos.';
         }
