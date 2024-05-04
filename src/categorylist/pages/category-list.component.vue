@@ -63,7 +63,7 @@ export default {
 .card-image {
   border-radius: 7%;
   width: 220px;
-  height: 230px; /* Ajusta la altura de la imagen */
+  height: 230px;
   object-fit: cover;
 }
 
@@ -105,13 +105,13 @@ export default {
   font-size:18px;
   color: black;
   margin-top: 10px;
-  margin-bottom: 10px;/* Espacio entre el elemento y el siguiente */
+  margin-bottom: 10px;
 }
 
 .card-type {
   font-size:18px;
   color: black;
-  margin-bottom: 20px; /* Espacio entre el elemento y el siguiente */
+  margin-bottom: 20px;
 }
 
 </style>
