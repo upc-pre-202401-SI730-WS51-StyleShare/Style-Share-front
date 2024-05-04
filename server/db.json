@@ -1,4 +1,128 @@
 {
+  "envios": [
+    {
+      "id": "1",
+      "nombre": "Gafas de Esquí de Alto Rendimiento",
+      "descripcion": "Experimenta la máxima claridad y protección en las pistas. Diseñadas para resistir condiciones extremas, estas gafas ofrecen un ajuste cómodo y una visión nítida en todo momento.",
+      "talla": "L",
+      "fechaEntrega": "2024-02-29",
+      "seguimento": "En camino",
+      "direccion": "Jr Jose Ramon Castilla 420 Lince",
+      "imagen": "https://i.ibb.co/mv2c1Sr/image-26.jpg",
+      "vendedor": "Juan Alberto"
+    },
+    {
+      "id": "2",
+      "nombre": "Traje de la Pantera Rosa",
+      "descripcion": "Divertido y llamativo, traje de la Pantera Rosa te ofrece un estilo único y audaz. Con su diseño vibrante y su tela cómoda, este traje es perfecto para destacar en fiestas y eventos temáticos.",
+      "talla": "L",
+      "fechaEntrega": "2024-12-02",
+      "seguimento": "En camino",
+      "direccion": "Jr Jose Ramon Castilla 420 Lince",
+      "imagen": "https://i.ibb.co/WV30XDP/image-25.png",
+      "vendedor": "Luis de la Fuente"
+    },
+    {
+      "id": "3",
+      "nombre": "Conjunto vestimenta de marinera norteña",
+      "descripcion": "Elegante y tradicional, conjunto de marinera norteña te permite lucir la belleza y la gracia de esta danza emblemática. Perfecto para eventos especiales y celebraciones, este conjunto es una declaración de estilo y orgullo cultural.",
+      "talla": "L",
+      "fechaEntrega": "2024-04-12",
+      "seguimento": "En camino",
+      "direccion": "Jr Jose Ramon Castilla 420 Lince",
+      "imagen": "https://i.ibb.co/5T33zDd/image-44.png",
+      "vendedor": "Luis de la Fuente"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "John Doe",
+      "email": "john@example.com",
+      "password": "1234",
+      "confirmPassword": "1234"
+    },
+    {
+      "id": "d9d4",
+      "username": "Eric ",
+      "email": "correo20@gmial.com",
+      "password": "1234"
+    },
+    {
+      "id": "6a97",
+      "username": "Carlos",
+      "email": "correoprueba@gmail.com",
+      "password": "polloalabrasa"
+    },
+    {
+      "id": "22f0",
+      "username": "Pedro",
+      "email": "cool@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "a2fe",
+      "username": "Eric",
+      "email": "eric@gmail.com",
+      "password": "123"
+    }
+  ],
+  "clothes": [
+    {
+      "id": "12f3",
+      "title": "Traje pantera rosa",
+      "description": "Gran traje de la pantera del callao",
+      "category": "disfrases",
+      "size": "L",
+      "material": "algodon",
+      "yearacquisition": "2020",
+      "rentaldays": "14",
+      "specialcares": "No usar perfimes con el traje",
+      "img": "sdasdasasd"
+    },
+    {
+      "id": "4d67",
+      "title": "Conjunto vestimenta de marinera norteña",
+      "description": "Elegante y tradicional, conjunto de marinera norteña te permite lucir la belleza y la gracia de esta danza emblemática. Perfecto para eventos especiales y celebraciones, este conjunto es una declaración de estilo y orgullo cultural.",
+      "category": "Danza",
+      "size": "M",
+      "material": "Algodon",
+      "yearacquisition": "2014",
+      "rentaldays": 5,
+      "specialcares": "ninguno",
+      "img": "https://i.ibb.co/5T33zDd/image-44.png"
+    }
+  ],
+  "cartItems": [
+    {
+    "id": 1,
+    "name": "Gafas de Esqui de Alto Rendimiento",
+    "price": 70,
+    "lessor": "Juan Alberto",
+    "logo": "https://tse2.mm.bing.net/th?id=OIP.lV4xVjEEqLcWwzIridOHAAHaHa&pid=Api&P=0&h=180"
+    },
+    {
+      "id": 2,
+      "name": "Traje de la Pantera Rosa",
+      "price": 100,
+      "lessor": "Maria Ostrinez",
+      "logo": "https://disfracescamilita.com/wp-content/uploads/2022/10/pantera-rosa.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Conjunto vestimenta de marinera norteña",
+      "price": 100,
+      "lessor": "Rene Magrid",
+      "logo": "https://i.ytimg.com/vi/-QvXNjYeKpU/maxresdefault.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gorra de mario",
+      "price": 50,
+      "lessor": "Mario Bros",
+      "logo": "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw92b3bfb6/images/41147938/large/41147938_x1.jpg"
+    }
+  ],
   "category": [
     {
       "price_range": "s/50 - s/700",
@@ -41,4 +165,5 @@
       "rate": "100"
     }
   ]
+
 }
