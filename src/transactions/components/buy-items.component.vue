@@ -1,5 +1,4 @@
 <script>
-
 import {TransactionsApiService} from "@/transactions/services/transactions-api.service.js";
 
 export default {

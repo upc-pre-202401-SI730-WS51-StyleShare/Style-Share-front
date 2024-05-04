@@ -38,34 +38,30 @@ export default {
 
 <template>
 
-  <div class="buy-items">
-    <div class="itemCards">
-      <p class="title">CARRITO</p>
-      <hr>
-      <pv-card v-for="item in items" :key="item.id" class="item-card">
-        <template #title class="card-title"></template>
-        <template #content class="card-content">
-          <div class="flex">
-            <div class="col-2">
-              <pv-button class="delete-button" icon="pi pi-times" rounded @click="deleteItem(item.id)"></pv-button>
-            </div>
-            <div class="col-3">
-              <img v-if="item.name" :src="item.logo">
-            </div>
-            <div class="col right-card-column">
-              <p>{{item.name}}</p>
-              <p>S/.{{item.price}}</p>
-              <p>Arrendador: {{item.lessor}}</p>
-            </div>
+  <div class="itemCards">
+    <p class="title">CARRITO</p>
+    <hr>
+    <pv-card v-for="item in items" :key="item.id" class="item-card">
+      <template #title class="card-title"></template>
+      <template #content class="card-content">
+        <div class="flex">
+          <div class="col-2">
+            <pv-button class="delete-button" icon="pi pi-times" rounded @click="deleteItem(item.id)"></pv-button>
           </div>
-          <hr>
-        </template>
-      </pv-card>
-    </div>
-    <div>
-      <buy-items></buy-items>
-    </div>
+          <div class="col-3">
+            <img v-if="item.name" :src="item.logo">
+          </div>
+          <div class="col right-card-column">
+            <p>{{item.name}}</p>
+            <p>S/.{{item.price}}</p>
+            <p>Arrendador: {{item.lessor}}</p>
+          </div>
+        </div>
+        <hr>
+      </template>
+    </pv-card>
   </div>
+
 </template>
 
 <style scoped>
@@ -96,7 +92,6 @@ export default {
   }
 
   .itemCards{
-    margin-top:130px;
     position: relative;
     text-align: left;
   }
