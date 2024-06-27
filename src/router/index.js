@@ -9,6 +9,13 @@ import itemCardComponent from "@/transactions/components/item-card.component.vue
 import categoryListComponent from "@/categorylist/pages/category-list.component.vue";
 import productDetailsComponent from "@/details/components/product-details.component.vue";
 import productListComponent from "@/products/components/product-list.component.vue";
+import createCategoryComponent from "@/categorylist/pages/CreateCategory.component.vue";
+import updateCategoryComponent from "@/categorylist/pages/UpdateCategory.component.vue";
+import deleteCategoryComponent from "@/categorylist/pages/DeleteCategory.component.vue";
+import getFavoriteCategoriesComponent from "@/categorylist/pages/GetFavoriteCategories.component.vue";
+import getCategoryByIdComponent from "@/categorylist/pages/GetCategoryById.component.vue";
+
+
 const router = createRouter({
 
     history: createWebHistory(),
@@ -23,6 +30,12 @@ const router = createRouter({
         { path: '/product-list', component: productListComponent, meta:{title:'ProductList'},},
         { path: '/category', component: categoryListComponent, meta:{title:'Category'},},
         { path: '/product-detail', component: productDetailsComponent, meta:{title:'ProductDetails'},},
+
+        { path: '/category/create', component: createCategoryComponent, meta: { title: 'Create Category' } },
+        { path: '/category/update', component: updateCategoryComponent, meta: { title: 'Update Category' } },
+        { path: '/category/delete', component: deleteCategoryComponent, meta: { title: 'Delete Category' } },
+        { path: '/category/favorites', component: getFavoriteCategoriesComponent, meta: { title: 'Favorite Categories' } },
+        { path: '/category/getById', component: getCategoryByIdComponent, meta: { title: 'Get Category by ID' } },
         { path: '/',  redirect: '/home' }
     ]
 
