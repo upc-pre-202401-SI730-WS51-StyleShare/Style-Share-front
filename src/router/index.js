@@ -14,6 +14,7 @@ import updateCategoryComponent from "@/categorylist/pages/UpdateCategory.compone
 import deleteCategoryComponent from "@/categorylist/pages/DeleteCategory.component.vue";
 import getFavoriteCategoriesComponent from "@/categorylist/pages/GetFavoriteCategories.component.vue";
 import getCategoryByIdComponent from "@/categorylist/pages/GetCategoryById.component.vue";
+import addItemComponent from "@/transactions/components/add-item.component.vue";
 
 
 const router = createRouter({
@@ -30,6 +31,7 @@ const router = createRouter({
         { path: '/product-list', component: productListComponent, meta:{title:'ProductList'},},
         { path: '/category', component: categoryListComponent, meta:{title:'Category'},},
         { path: '/product-detail', component: productDetailsComponent, meta:{title:'ProductDetails'},},
+        { path: '/add-productcart', component: addItemComponent, meta:{title:'AddProductCart'},},
 
         { path: '/category/create', component: createCategoryComponent, meta: { title: 'Create Category' } },
         { path: '/category/update', component: updateCategoryComponent, meta: { title: 'Update Category' } },
